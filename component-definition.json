@@ -135,7 +135,23 @@
               }
             }
           }
-        }
+        },
+        {
+          "title": "Card List",
+          "id": "cardList",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "model": "cardList",
+                "template": {
+                  "name": "Card List",
+                  "filter": "cardList"
+                }
+              }
+            }
+          }
+        },
       ]
     }
   ]
