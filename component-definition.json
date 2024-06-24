@@ -138,15 +138,15 @@
         },
         {
           "title": "Card List",
-          "id": "cardList",
+          "id": "card-list",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
-                "model": "cardList",
+                "model": "card-list",
                 "template": {
                   "name": "Card List",
-                  "filter": "cardList"
+                  "filter": "card-list"
                 }
               }
             }
