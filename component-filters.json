@@ -27,13 +27,15 @@
       "title",
       "hero",
       "cards",
-      "columns"
+      "columns",
+      "cardList"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "card"
+      "card",
+      "cardList"
     ]
   }
 ]
