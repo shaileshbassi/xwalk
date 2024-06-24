@@ -1,4 +1,6 @@
 name: Build
+env:
+  TEST_VAR1: ${{ vars.TEST_VAR1 }}
 on: [push]
 
 jobs:

@@ -30,5 +30,11 @@
       "columns",
       "card-list"
     ]
-  }
+  },
+  {
+    "id": "card-list",
+    "components": [
+      "cardItem"
+    ]
+  },
 ]
