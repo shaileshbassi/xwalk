@@ -2,12 +2,15 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "test"
     ]
   },
   {
     "id": "columns",
-    "components": []
+    "components": [
+      "test"
+    ]
   },
   {
     "id": "column",
@@ -28,7 +31,8 @@
       "hero",
       "cards",
       "columns",
-      "card-list"
+      "card-list",
+      "test"
     ]
   },
   {
