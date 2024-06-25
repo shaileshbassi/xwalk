@@ -1,5 +1,6 @@
 export default function decorate(block) {
     console.log("inside the test block");
+    console.log(block);
     const titleElement = block.querySelector('div:nth-child(1) > p');
     const title = titleElement.textContent.trim();
 
