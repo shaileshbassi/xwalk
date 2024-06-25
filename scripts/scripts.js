@@ -12,7 +12,9 @@ import {
   loadCSS,
 } from './aem.js';
 
-const LCP_BLOCKS = []; // add your LCP blocks to the list
+const LCP_BLOCKS = [
+  "test"
+]; // add your LCP blocks to the list
 
 /**
  * Moves all the attributes from a given elmenet to another given element.
