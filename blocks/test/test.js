@@ -4,9 +4,9 @@ export default function decorate(block) {
     const title = titleElement.textContent.trim();
 
 
-    const descriptionElement = block.querySelector('div:nth-child(1) > ol');
+    const descriptionElement = block.querySelector('div:nth-child(2) > ol');
 
-    console.log(block);
+    console.log(descriptionElement);
 
     block.parentElement.classList.add("parent_test");
     block.innerHTML = `
