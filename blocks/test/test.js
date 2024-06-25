@@ -10,10 +10,10 @@ export default function decorate(block) {
     console.log(descriptionElement);
 
     block.parentElement.classList.add("parent_test");
-    block.innerHTML = `
-        <div class="test">
-            <h2>${title}</h2>
-             ${descriptionElement}
-        </div>
-    `;
+    // block.innerHTML = `
+    //     <div class="test">
+    //         <h2>${title}</h2>
+    //          ${descriptionElement}
+    //     </div>
+    // `;
     }
