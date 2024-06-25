@@ -204,24 +204,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "test",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "Title",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
   }
 ]

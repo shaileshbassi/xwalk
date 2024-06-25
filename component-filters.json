@@ -34,7 +34,7 @@
   {
     "id": "card-list",
     "components": [
-      "cardItem"
+      "card"
     ]
   },
 ]

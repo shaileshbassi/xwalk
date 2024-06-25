@@ -1,3 +1,4 @@
 export default function decorate(block) {
-    console.log("inside decorate function"+process.env.TEST_VAR1);
+  const cardListContainer = document.createElement("div");
+  cardListContainer.classList.add("cardList-container-section");
   }
