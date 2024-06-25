@@ -740,6 +740,8 @@ async function loadFooter(footer) {
  */
 async function waitForLCP(lcpBlocks) {
   const block = document.querySelector('.block');
+  console.log("inside wait for LCP");
+  console.log(block.dataset.blockName);
   const hasLCPBlock = block && lcpBlocks.includes(block.dataset.blockName);
   if (hasLCPBlock) await loadBlock(block);
 
