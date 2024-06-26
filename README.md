@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--xwalk--shaileshbassi.hlx.page/
-- Live: https://main--xwalk--shaileshbassi.hlx.live/
+- Preview: https://develop--xwalk--shaileshbassi.hlx.page/
+- Live: https://develop--xwalk--shaileshbassi.hlx.live/
 
 ## Installation
 
