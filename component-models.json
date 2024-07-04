@@ -221,6 +221,12 @@
         "value": "",
         "label": "Description",
         "valueType": "string"
+      },{
+        "component": "text",
+        "name": "dynamicmediaurl",
+        "value": "",
+        "label": "Description",
+        "valueType": "hidden"
       }
     ]
   }
