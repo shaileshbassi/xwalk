@@ -226,7 +226,7 @@
         "name": "dynamicmediaurl",
         "value": "",
         "label": "Dynamic Media Url",
-        "valueType": "hidden"
+        "readOnly": true
       }
     ]
   }
