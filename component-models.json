@@ -225,7 +225,7 @@
         "component": "text",
         "name": "dynamicmediaurl",
         "value": "",
-        "label": "Description",
+        "label": "Dynamic Media Url",
         "valueType": "hidden"
       }
     ]
