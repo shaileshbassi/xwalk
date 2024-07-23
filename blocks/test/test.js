@@ -1,13 +1,13 @@
-// import {fetchPlaceholders} from './aem.js';
+import {fetchPlaceholders} from '../../scripts/aem.js';
 
 export default function decorate(block) {
     console.log("inside the test block");
 
-    // const placeholders = fetchPlaceholders();
-    // placeholders.forEach((row) => {
-    //   console.log("inside placeholder block")
-    //   console.log(row);
-    // });
+    const placeholders = fetchPlaceholders();
+    placeholders.forEach((row) => {
+      console.log("inside placeholder block")
+      console.log(row);
+    });
 
 
     console.log(block.parentElement.parentElement);
