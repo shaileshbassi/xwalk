@@ -1,11 +1,7 @@
 {
   "mappings": [
-<<<<<<< HEAD
     "/content/xwalk-test/:/",
     "/content/xwalk-test/metadata:/metadata.json",
-=======
-    "/content/xwalk-test/:/"
->>>>>>> 85053463a251d00ca4042464fd68428275dc8e62
     "/content/xwalk-test/placeholders:/placeholders.json"
   ]
 }
