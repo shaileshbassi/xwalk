@@ -5,6 +5,7 @@ export default function decorate(block) {
 
     const placeholders = fetchPlaceholders();
     console.log(placeholders);
+    console.log("this is placeholder end");
     // placeholders.forEach((row) => {
     //   console.log("inside placeholder block")
     //   console.log(row);
