@@ -1,9 +1,9 @@
 import {fetchPlaceholders} from '../../scripts/aem.js';
 
-export default function decorate(block) {
+export default async function decorate(block) {
     console.log("inside the test block");
 
-    const placeholders = fetchPlaceholders();
+    const placeholders = await fetchPlaceholders();
     console.log(placeholders);
     console.log("this is placeholder end");
     // placeholders.forEach((row) => {
