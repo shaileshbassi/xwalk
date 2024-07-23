@@ -1,5 +1,15 @@
+import {fetchPlaceholders} from './aem.js';
+
 export default function decorate(block) {
     console.log("inside the test block");
+
+    const placeholders = fetchPlaceholders();
+    placeholders.forEach((row) => {
+      console.log("inside placeholder block")
+      console.log(row);
+    });
+
+
     console.log(block.parentElement.parentElement);
     console.log("hello--------");
     const titleElement = block.querySelector('div:nth-child(1) > p');
