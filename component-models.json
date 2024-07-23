@@ -227,7 +227,48 @@
         "value": "",
         "label": "Dynamic Media Url",
         "readOnly": true
+      },
+      {
+        "component": "container",
+        "label": "Pop Up Container 1",
+        "name": "container1",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text-input",
+            "label": "Simple Text 1",
+            "name": "text",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Simple Text 2",
+            "name": "text2",
+            "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Pop Up Container 2",
+        "name": "container2",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text-input",
+            "label": "Simple Text 3",
+            "name": "text3",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Simple Text 4",
+            "name": "text4",
+            "valueType": "string"
+          }
+        ]
       }
-    ]
   }
 ]
