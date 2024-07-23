@@ -239,7 +239,7 @@
           {
             "component": "text-input",
             "label": "Simple Text 1",
-            "name": "text",
+            "name": "text1",
             "valueType": "string"
           },
           {
@@ -252,7 +252,7 @@
       },
       {
         "component": "container",
-        "label": "Pop Up Container 1",
+        "label": "Pop Up Container 2",
         "name": "container2",
         "valueType": "string",
         "collapsible": true,
@@ -260,13 +260,13 @@
           {
             "component": "text-input",
             "label": "Simple Text 3",
-            "name": "text",
+            "name": "text3",
             "valueType": "string"
           },
           {
             "component": "text-input",
             "label": "Simple Text 24",
-            "name": "textt2",
+            "name": "text4",
             "valueType": "string"
           }
         ]
