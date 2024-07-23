@@ -1,5 +1,7 @@
 {
   "mappings": [
-    "/content/xwalk-test/:/"
+    "/content/xwalk-test/:/",
+    "/content/xwalk-test/metadata:/metadata.json",
+    "/content/xwalk-test/placeholders:/placeholders.json"
   ]
 }
