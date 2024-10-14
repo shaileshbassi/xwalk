@@ -3,4 +3,4 @@ const sf = {
     test
 }
 
-export default {sf}
+export default sf;
